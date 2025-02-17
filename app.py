@@ -1,12 +1,12 @@
 import streamlit as st
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os
 from groq import Groq
 import chromadb
 import pandas as pd
 
 # Load environment variables
-load_dotenv()
+#load_dotenv()
 
 # Load ChromaDB
 CHROMA_DATA_PATH = 'Quran/'
