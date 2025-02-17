@@ -2,6 +2,9 @@ import streamlit as st
 #from dotenv import load_dotenv
 import os
 from groq import Groq
+import sys
+import pysqlite3
+sys.modules["sqlite3"] = pysqlite3  # Force Python to use pysqlite3
 import chromadb
 import pandas as pd
 
