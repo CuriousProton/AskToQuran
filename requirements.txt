@@ -3,3 +3,4 @@ pandas
 chromadb
 groq
 python-doten
+dotenv
