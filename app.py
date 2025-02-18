@@ -3,8 +3,6 @@ import streamlit as st
 import os
 from groq import Groq
 import sys
-import pysqlite3
-sys.modules["sqlite3"] = pysqlite3  # Force Python to use pysqlite3
 import chromadb
 import pandas as pd
 
